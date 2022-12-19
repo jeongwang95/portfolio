@@ -1,0 +1,134 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+body{
+    background-color: rgb(164, 210, 155);
+}
+
+nav li{
+    display: inline;
+    margin: 50px;
+}
+
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+nav{
+    position: fixed;
+    text-align: center;
+    background-color: rgb(164, 210, 155);
+    width: 100%;
+    top: 0px;
+    padding: 20px;
+}
+
+nav a{
+    color: rgb(68, 102, 60);
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.hero{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.hero-text{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 55%;
+    float: left;
+}
+
+.hero-text h1{
+    color: rgb(68, 102, 60);
+}
+
+.hero-text a{
+    color: rgb(68, 102, 60);
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(200, 234, 198);
+    border-radius: 10px;
+}
+
+.hero-text a:hover{
+    color: white;
+}
+
+.hero-image img{
+   width: 20%;
+   border-radius: 10%;
+   margin-bottom: 40px;
+}
+
+#background, #why-coding{
+    background-color: rgb(200, 234, 198);
+}
+
+main article{
+    padding: 200px;
+}
+
+main h1{
+    text-align: center;
+    color:rgb(68, 102, 60);
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(200, 234, 198);
+    border-width: 10px;
+}
+
+.hobbies{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.text{
+    padding-left: 100px;
+}
+
+.text strong{
+    color: rgb(68, 102, 60);
+}
+
+#contact-me{
+    text-align: center;
+}
+
+form{
+    padding: 50px;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 10px;
+    border: 0px;
+    box-shadow: inset 0 -10px 10px -10px rgb(68, 102, 60);
+}
+
+#me2{
+    width: 20%;
+    border-radius: 50%;
+    border-style: outset;
+    border-color: rgb(200, 234, 198);
+    border-width: 10px;
+}
